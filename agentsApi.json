@@ -1,0 +1,38 @@
+[
+    {
+        "userImg": "./img/agent-image.webp",
+        "name": "JOHN DOE"
+    },
+    {
+        "userImg": "./img/agent-image-2.webp",
+        "name": "JANE DOE"
+    },
+    {
+        "userImg": "./img/agent-image-3.webp",
+        "name": "JONNY DOE"
+    },
+    {
+        "userImg":"./img/agent-image-2.webp",
+        "name": "HELLE MATTIS"
+    },
+    {
+        "userImg": "./img/agent-image-3.webp",
+        "name": "CARLOS MERTENS"
+    },
+    {
+        "userImg": "./img/agent-image.webp",
+        "name": "PETTER GRIFIN"
+    },
+    {
+        "userImg": "./img/agent-image-3.webp",
+        "name": "TOMAS HUG"
+    },
+    {
+        "userImg": "./img/agent-image.webp",
+        "name": "MICHAEL BLOMDER"
+    },
+    {
+        "userImg": "./img/agent-image-2.webp",
+        "name": "GLORIA STEVENSON"
+    }
+]

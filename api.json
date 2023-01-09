@@ -1,0 +1,513 @@
+[
+    {
+        "price": "500,000.00",
+        "houseImg": "./img/house1.webp",
+        "city": "Beverly Hills, CA",
+        "location": [
+          "272 S Rexford Dr, Beverly Hills, CA",
+          "90212, USA"
+        ],
+        "userImg": "./img/User.webp",
+        "userName": "Helle Mattis",
+        "timeAgo": "4 months ago",
+        "size": "2400",
+        "garage": "2",
+        "bethroom": "2",
+        "bedroom": "3",
+        "type": "House"
+    },
+    {
+        "price": "420,000.00",
+        "houseImg": "./img/house2.webp",
+        "city": "Los Angeles CA",
+        "location": [
+            "200 N. Spring Street, Los Angeles, CA",
+            "90012, USA"
+          ],
+        "userImg": "./img/agent-1-3-60x60.webp",
+        "userName": "Carlos Mertens",
+        "timeAgo": "6 months ago",
+        "size": "2700",
+        "garage": "1",
+        "bethroom": "3",
+        "bedroom": "3",
+        "type": "House"
+    },
+    {
+        "price": "520,000.00",
+        "houseImg": "./img/house3.webp",
+        "city": "San Francisco, CA",
+        "location": [
+            "1 Carlton B. Goodlett Place San Francisco, CA",
+            "94102, USA"
+          ],
+        "userImg": "./img/User.webp",
+        "userName": "Melina Miles",
+        "timeAgo": "5 months ago",
+        "size": "3200",
+        "garage": "2",
+        "bethroom": "5",
+        "bedroom": "4",
+        "type": "House"
+    },
+    {
+        "price": "400,000.00",
+        "houseImg": "./img/house4.webp",
+        "city": "San Diego CA",
+        "location":[
+            "202 C Street San Diego CA",
+            "92101 USA"
+        ],
+        "userImg": "./img/agent-1-3-60x60.webp",
+        "userName": "Jerry Sanders",
+        "timeAgo": "7 months ago",
+        "size": "2600",
+        "garage": "2",
+        "bethroom": "3",
+        "bedroom": "3",
+        "type": "House"
+    },
+    {
+        "price": "380,000.00",
+        "houseImg": "./img/house5.webp",
+        "city": "Beverly Hills, CA",
+        "location": [
+            "120 S Rexford Dr, Beverly Hills, CA ",
+            "90182 USA"
+        ],
+        "userImg": "./img/User.webp",
+        "userName": "Yinna Colins",
+        "timeAgo": "8 months ago",
+        "size": "2500",
+        "garage": "1",
+        "bethroom": "3",
+        "bedroom": "3",
+        "type": "Apartament"
+    },
+    {
+        "price": "580,000.00",
+        "houseImg": "./img/house6.webp",
+        "city": "Santa Monica CA",
+        "location":[
+            "966 8th Street, Santa Monica CA",
+            "91036 USA"
+        ],
+        "userImg": "./img/User.webp",
+        "userName": "Lara Morris",
+        "timeAgo": "9 months ago",
+        "size": "3500",
+        "garage": "2",
+        "bethroom": "5",
+        "bedroom": "5",
+        "type": "Commercial local"
+        
+    },
+    {
+        "price": "500,000.00",
+        "houseImg": "./img/house7.webp",
+        "city": "Los Angeles CA",
+        "location":[
+            "222 N. Alameda Street, Los Angeles, CA",
+            "90624, USA"
+        ],
+        "userImg": "./img/agent-1-3-60x60.webp",
+        "userName": "Tomas Hug",
+        "timeAgo": "5 months ago",
+        "size": "2300",
+        "garage": "2",
+        "bethroom": "4",
+        "bedroom": "4",
+        "type": "Cottage"
+    },
+    {
+        "price": "600,000.00",
+        "houseImg": "./img/house8.webp",
+        "city": "Miami FL",
+        "location":[
+            "PO Box 330708 Miami ",
+            "33233 USA"
+        ],
+        "userImg": "./img/agent-1-3-60x60.webp",
+        "userName": "Petter Grifin",
+        "timeAgo": "3 months ago",
+        "size": "2600",
+        "garage": "2",
+        "bethroom": "3",
+        "bedroom": "4",
+        "type": "Cottage"
+    },
+    {
+        "price": "650,000.00",
+        "houseImg": "./img/house9.webp",
+        "city": "Santa Monica CA",
+        "location":[
+            "1717 4th Street, Suite 250 Santa Monica CA",
+            "90401 USA"
+        ],
+        "userImg": "./img/User.webp",
+        "userName": "Gloria Stevenson",
+        "timeAgo": "5 months ago",
+        "size": "2700",
+        "garage": "1",
+        "bethroom": "4",
+        "bedroom": "4",
+        "type": "Apartament"
+    },
+    {
+        "price": "450,000.00",
+        "houseImg": "./img/house10.webp",
+        "city": "NEW YORK NY",
+        "location":[
+            "75 PARK PLACE 8TH FLOOR NEW YORK NY",
+            "10007 USA"
+        ],
+        "userImg": "./img/agent-1-3-60x60.webp",
+        "userName": "Michael Blomder",
+        "timeAgo": "7 months ago",
+        "size": "3500",
+        "garage": "1",
+        "bethroom": "4",
+        "bedroom": "4",
+        "type": "House"
+    },
+    {
+        "price": "500,000.00",
+        "houseImg": "./img/house11.webp",
+        "city": "CHICAGO IL",
+        "location":[
+            "121 N LASALLE ST. ROOM 107 CHICAGO IL",
+            "60602 USA"
+        ],
+        "userImg": "./img/agent-1-3-60x60.webp",
+        "userName": "Helle Mattis",
+        "timeAgo": "3 months ago",
+        "size": "2400",
+        "garage": "2",
+        "bethroom": "4",
+        "bedroom": "4",
+        "type": "Cottage"
+    },
+    {
+        "price": "460,000.00",
+        "houseImg": "./img/house12.webp",
+        "city": "Los Angeles CA",
+        "location": [
+            "148 N. Spring Street, Los Angeles, CA",
+            "90284, USA"
+          ],
+        "userImg": "./img/User.webp",
+        "userName": "Monica Grey",
+        "timeAgo": "10 months ago",
+        "size": "2700",
+        "garage": "1",
+        "bethroom": "4",
+        "bedroom": "4",
+        "type": "House"
+    },
+    {
+        "price": "525,000.00",
+        "houseImg": "./img/house13.webp",
+        "city": "Santa Monica CA",
+        "location":[
+            "885 5th Street, Suite 200 Santa Monica CA",
+            "92050 USA"
+        ],
+        "userImg": "./img/agent-1-3-60x60.webp",
+        "userName": "Malcom Pharse",
+        "timeAgo": "12 months ago",
+        "size": "2800",
+        "garage": "1",
+        "bethroom": "3",
+        "bedroom": "3",
+        "type": "House"
+    },
+    {
+        "price": "500,000.00",
+        "houseImg": "./img/house14.webp",
+        "city": "CHICAGO IL",
+        "location":[
+            "261 N LASALLE ST. CHICAGO IL",
+            "90551 USA"
+        ],
+        "userImg": "./img/User.webp",
+        "userName": "Pria Malik",
+        "timeAgo": "3 months ago",
+        "size": "2500",
+        "garage": "2",
+        "bethroom": "3",
+        "bedroom": "4",
+        "type": "Commercial local"
+    },
+    {
+        "price": "600,000.00",
+        "houseImg": "./img/house15.webp",
+        "city": "San Diego CA",
+        "location":[
+            "160 C Street San Diego CA",
+            "91021 USA"
+        ],
+        "userImg": "./img/agent-1-3-60x60.webp",
+        "userName": "Helle Mattis",
+        "timeAgo": "3 months ago",
+        "size": "3200",
+        "garage": "1",
+        "bethroom": "6",
+        "bedroom": "5",
+        "type": "Cottage"
+    },
+    {
+        "price": "480,000.00",
+        "houseImg": "./img/house16.webp",
+        "city": "CHICAGO IL",
+        "location":[
+            "300 N E MONROE ST. CHICAGO IL",
+            "90551 USA"
+        ],
+        "userImg": "./img/agent-1-3-60x60.webp",
+        "userName": "Helle Mattis",
+        "timeAgo": "8 months ago",
+        "size": "2500",
+        "garage": "2",
+        "bethroom": "3",
+        "bedroom": "3",
+        "type": "Apartament"
+    },
+    {
+        "price": "650,000.00",
+        "houseImg": "./img/house17.webp",
+        "city": "San Diego CA",
+        "location":[
+            "160 C Street San Diego CA",
+            "91021 USA"
+        ],
+        "userImg": "./img/agent-1-3-60x60.webp",
+        "userName": "Helle Mattis",
+        "timeAgo": "3 months ago",
+        "size": "3100",
+        "garage": "1",
+        "bethroom": "6",
+        "bedroom": "4",
+        "type": "Cottage"
+    },
+    {
+        "price": "550,000.00",
+        "houseImg": "./img/house18.webp",
+        "city": "NEW YORK NY",
+        "location":[
+            "York Street NEW YORK NY",
+            "10182 USA"
+        ],
+        "userImg": "./img/agent-1-3-60x60.webp",
+        "userName": "Helle Mattis",
+        "timeAgo": "5 months ago",
+        "size": "2500",
+        "garage": "2",
+        "bethroom": "3",
+        "bedroom": "4",
+        "type": "House"
+    },
+    {
+        "price": "580,000.00",
+        "houseImg": "./img/house19.webp",
+        "city": "NEW YORK NY",
+        "location":[
+            "20 PARK PLACE NEW YORK NY",
+            "10593 USA"
+        ],
+        "userImg": "./img/agent-1-3-60x60.webp",
+        "userName": "Helle Mattis",
+        "timeAgo": "3 months ago",
+        "size": "2800",
+        "garage": "1",
+        "bethroom": "4",
+        "bedroom": "5",
+        "type": "House"
+    },
+    {
+        "price": "520,000.00",
+        "houseImg": "./img/house20.webp",
+        "city":  "Santa Monica CA",
+        "location":[
+            "602 8th Street, Suite 120 Santa Monica CA",
+            "94982 USA"
+        ],
+        "userImg": "./img/agent-1-3-60x60.webp",
+        "userName": "Helle Mattis",
+        "timeAgo": "3 months ago",
+        "size": "2500",
+        "garage": "1",
+        "bethroom": "4",
+        "bedroom": "4",
+        "type": "Apartament"
+    },
+    {
+        "price": "670,000.00",
+        "houseImg": "./img/house21.webp",
+        "city": "Beverly Hills, CA",
+        "location":[
+            "102 S Rexford Dr, Beverly Hills, CA",
+            "90653, USA"
+        ],
+        "userImg": "./img/agent-1-3-60x60.webp",
+        "userName": "Helle Mattis",
+        "timeAgo": "3 months ago",
+        "size": "2400",
+        "garage": "2",
+        "bethroom": "5",
+        "bedroom": "6",
+        "type": "Cottage"
+    },
+    {
+        "price": "620,000.00",
+        "houseImg": "./img/house22.webp",
+        "city": "San Francisco, CA",
+        "location":[
+            "Goodlett Place San Francisco, CA",
+            "92541, USA"
+        ],
+        "userImg": "./img/agent-1-3-60x60.webp",
+        "userName": "Helle Mattis",
+        "timeAgo": "3 months ago",
+        "size": "2400",
+        "garage": "1",
+        "bethroom": "4",
+        "bedroom": "5",
+        "type": "House"
+    },
+    {
+        "price": "650,000.00",
+        "houseImg": "./img/house23.webp",
+        "city":  "San Francisco, CA",
+        "location":[
+            "3 Carlton B. Place San Francisco, CA",
+            "96541, USA"
+        ],
+        "userImg": "./img/agent-1-3-60x60.webp",
+        "userName": "Helle Mattis",
+        "timeAgo": "6 months ago",
+        "size": "2400",
+        "garage": "2",
+        "bethroom": "4",
+        "bedroom": "4",
+        "type": "House"
+    },
+    {
+        "price": "500,000.00",
+        "houseImg": "./img/house24.webp",
+        "city": "San Diego CA",
+        "location":[
+            "160 C Street San Diego CA",
+            "91021 USA"
+        ],
+        "userImg": "./img/agent-1-3-60x60.webp",
+        "userName": "Helle Mattis",
+        "timeAgo": "3 months ago",
+        "size": "2400",
+        "garage": "2",
+        "bethroom": "4",
+        "bedroom": "4",
+        "type": "Commercial local"
+    },
+    {
+        "price": "490,000.00",
+        "houseImg": "./img/house25.webp",
+        "city": "Miami FL",
+        "location":[
+            "PO 32548 Miami ",
+            "336548 USA"
+        ],
+        "userImg": "./img/agent-1-3-60x60.webp",
+        "userName": "Helle Mattis",
+        "timeAgo": "3 months ago",
+        "size": "2400",
+        "garage": "2",
+        "bethroom": "4",
+        "bedroom": "4",
+        "type": "Cottage"
+    },
+    {
+        "price": "500,000.00",
+        "houseImg": "./img/house26.webp",
+        "city": "Miami FL",
+        "location":[
+            "Box 330506 Miami",
+            "34561 USA"
+        ],
+        "userImg": "./img/agent-1-3-60x60.webp",
+        "userName": "Helle Mattis",
+        "timeAgo": "3 months ago",
+        "size": "2500",
+        "garage": "2",
+        "bethroom": "4",
+        "bedroom": "4",
+        "type": "House"
+    },
+    {
+        "price": "500,000.00",
+        "houseImg": "./img/house27.webp",
+        "city": "San Diego CA",
+        "location":[
+            "160 C Street San Diego CA",
+            "91021 USA"
+        ],
+        "userImg": "./img/agent-1-3-60x60.webp",
+        "userName": "Helle Mattis",
+        "timeAgo": "3 months ago",
+        "size": "2400",
+        "garage": "2",
+        "bethroom": "4",
+        "bedroom": "4",
+        "type": "Apartament"
+    },
+    {
+        "price": "500,000.00",
+        "houseImg": "./img/house28.webp",
+        "city": "San Diego CA",
+        "location":[
+            "160 C Street San Diego CA",
+            "91021 USA"
+        ],
+        "userImg": "./img/agent-1-3-60x60.webp",
+        "userName": "Helle Mattis",
+        "timeAgo": "3 months ago",
+        "size": "2400",
+        "garage": "2",
+        "bethroom": "4",
+        "bedroom": "4",
+        "type": "Commercial local"
+    },
+    {
+        "price": "320,000.00",
+        "houseImg": "./img/house29.webp",
+        "city": "Beverly Hills, CA",
+        "location": [
+          "272 S Rexford Dr, Beberly Hills, CA",
+          "90212, USA"
+        ],
+        "userImg": "./img/agent-1-3-60x60.webp",
+        "userName": "Petter Grifin",
+        "timeAgo": "4 months ago",
+        "size": "2400",
+        "garage": "2",
+        "bethroom": "2",
+        "bedroom": "3",
+        "type": "House"
+    },
+    {
+        "price": "480,000.00",
+        "houseImg": "./img/house30.webp",
+        "city": "Los Angeles CA",
+        "location": [
+            "256 N. Spring Street, Los Angeles, CA",
+            "91944, USA"
+          ],
+        "userImg": "./img/User.webp",
+        "userName": "Monica Grey",
+        "timeAgo": "10 months ago",
+        "size": "2700",
+        "garage": "2",
+        "bethroom": "4",
+        "bedroom": "4",
+        "type": "Commercial local"
+    }
+]

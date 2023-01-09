@@ -1,0 +1,361 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./img/Logo.ico">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+    @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+    </style>
+    <title>Document</title>
+</head>
+<body>
+  <!-- MODAL -->
+  <section class="modal animate__animated" id="modal">
+ 
+  </section>
+  <section class="hidden animate__animated" id="menu">
+    <ul>
+      <li><a href="#" class="active">HOMEPAGE</a></li>
+      <li><a href="#houses">PROPERTIES</a></li>
+      <li><a href="#agencies">AGENCIES</a></li>
+      <li><a href="#hot-deal">HOT DEAL</a></li>
+      <li><a href="#ourAgents">AGENTS</a></li>
+      <li><a href="#">CONTACT</a></li>
+      <li><a href="#">COMPARE</a></li>
+    </ul>
+  </section>
+  <!--  -->
+    <nav>
+        <!-- Seccion top navbar  -->
+        <section class="Sec1_navbar">
+          <article>
+            <h3>1441 Market St, San Francisco</h3>
+            <h3>(123) 456-7890</h3>
+            <h3>Mon - Sun: 8:00am - 6:00pm</h3>
+          </article>
+          <button>LOGIN/REGISTER</button>
+        </section>
+        <!-- Termina top navbar  -->
+        <!-- Comienza seccion nav principal  -->
+        <section class="Sec2_navbar">
+          <figure>
+            <img src="./img/Logo.webp" alt="" />
+            <figcaption>casa<span>Royal</span></figcaption>
+          </figure>
+          <ul>
+            <li><a href="#" class="active">HOMEPAGE</a></li>
+            <li><a href="#houses">PROPERTIES</a></li>
+            <li><a href="#agencies">AGENCIES</a></li>
+            <li><a href="#hot-deal">HOT DEAL</a></li>
+            <li><a href="#ourAgents">AGENTS</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">COMPARE</a></li>
+          </ul>
+          <img src="./img/menu.png" alt="" class="hidden" id="btnMenu">
+          <button class="btnNav">SUBMIT LISTING</button>
+        </section>
+        <!-- Termina seccion nav principal  -->
+      </nav>
+      <header>
+       
+        <section class="main_header">
+            <div class="textos_main_header">
+                <h1>Let Us Guide You Home</h1>
+                <p>Find the house of your dreams</p>
+            </div>
+            <div class="inputs_main_header radius" id="inputsFilter">
+                <div class="inputSelect height_input radius type">
+                    <label for="">Type</label>
+                    <select id="type" class="no-arrow">
+                        
+                    </select>
+                </div>
+                <div class="inputSelect height_input radius status">
+                    <label>Status</label>
+                    <select id="status" class="no-arrow">
+                        
+                    </select>
+                </div>
+                <input type="text" placeholder="Search for properties, suburbs or keywords..." class="inputSelect height_input radius" id="inputText">
+                <button class="height_input radius" id="find">FIND PROPERTIES</button>
+            </div>
+        </section>
+      </header>
+      <main id="houses">
+        <section class="text_main">
+          <p>casaroyal real estate agency</p>
+          <h2><span>Featured</span> Properties</h2>
+        </section>
+        <section class="Sec_cardHouses" id="cardsHouse">
+        </section>
+        <button id="allProperties" class="button">ALL PROPERTIES</button>
+      </main>
+      
+      <section class="hot-deal" id="hot-deal">
+        <section class="text_main">
+          <p>casaroyal real estate agency</p>
+          <h2><span>Hot</span> Deal</h2>
+        </section>
+        <section class="contend">
+          <p>Photos (4)</p>
+          <section class="info-hot">
+            <h4>Residential Towe For Rent</h4>
+            <h1>15 Apartamentos of Type B</h1>
+            <h4>Los Angeles, CA</h4>
+            <button>From $1,700.00 Per Month</button> 
+            <img src="./img/Video-Button.webp" alt="" class="videoIcon"> 
+            <div>
+              <div><img src="./img/area-icon-banner.webp" alt=""><p>1600 <br><span>Sq Ft</span></p></div>
+              <div><img src="./img/bedroom-icon-banner.webp" alt=""><p>2<br><span>Beds</span></p></div>
+              <div><img src="./img/bathroom-icon-banner.webp" alt=""><p>1<br><span>Bath</span></p></div>
+              <div><img src="./img/garage-icon-banner.webp" alt=""><p>1<br><span>Garage</span></p></div>
+            </div>
+          </section>
+        </section>
+      </section>
+      <section class="propertiesByArea">
+        <section class="text_main">
+          <p>casaroyal real estate agency</p>
+          <h2><span>Properties</span> by Area</h2>
+        </section>
+        <section>
+          <div><img src="./img/area-block-1.webp" alt=""><img src="./img/area-block-2.webp" alt=""></div>
+          <div><img src="./img/area-block-3.webp" alt=""><img src="./img/area-block-4.webp" alt=""></div>
+        </section>
+      </section>
+      <section class="ourAgent" id="ourAgents">
+        <section class="text_main">
+          <p>MEET OUR TEAM</p>
+          <h2><span>Our</span> Agents</h2>
+        </section>
+        <section class="agents" id="agents"> 
+        </section>
+        <div class="navigation" id="navigation">
+            <input type="radio" name="radio" value="1" checked>
+            <input type="radio" name="radio" value="2">
+            <input type="radio" name="radio" value="3">
+        </div>
+      </section>
+      <section class="property">
+        <div>
+          <h1>Want to Sell <br>Property?</h1>
+          <p>Let us create a tailored strategic marketing plan and keep track of the selling process.</p>
+          <button class="button">MORE DETAILS</button>
+        </div>
+      </section>
+      <section class="realState">
+        <section class="text_main" id="agencies">
+          <p>MEET OUR TEAM</p>
+          <h2><span>Real Estate</span> Agencies</h2>
+        </section>
+        <section class="agencies">
+          <article>
+            <div class="verified">
+                <img src="./img/Verified-Icon.webp" alt="">
+                <p>Verified</p>
+                <p>4.5</p>
+            </div>
+            <img src="./img/bulding.webp" alt="" class="agenciesImg">
+          <figure>
+            <img src="./img/flag.webp" alt="">
+            <p>San Francisco, USA</p>
+          </figure>
+          <h1>ProHouse</h1>
+          <h4>123 456 7890</h4>
+          <h4>agency@email.com</h4>
+          <button>3 Properties</button>
+          </article>
+          <article>
+            <div class="verified">
+                <img src="./img/Verified-Icon.webp" alt="">
+                <p>Verified</p>
+                <p>4.5</p>
+            </div>
+            <img src="./img/trees.webp" alt="" class="agenciesImg">
+          <figure>
+            <img src="./img/flag.webp" alt="">
+            <p>Los Angeles, USA</p>
+          </figure>
+          <h1>beHome</h1>
+          <h4>123 456 7890</h4>
+          <h4>agency@email.com</h4>
+          <button>3 Properties</button>
+          </article>
+          <article>
+            <div class="verified">
+                <img src="./img/Verified-Icon.webp" alt="">
+                <p>Verified</p>
+                <p>4.5</p>
+            </div>
+            <img src="./img/architecture.webp" alt="" class="agenciesImg">
+          <figure>
+            <img src="./img/flag.webp" alt="">
+            <p>Seattle, USA</p>
+          </figure>
+          <h1>Alain Doe</h1>
+          <h4>123 456 7890</h4>
+          <h4>agency@email.com</h4>
+          <button>3 Properties</button>
+          </article>
+        </section>
+      </section>
+      <section class="articles">
+        <section class="text_main">
+          <p>CASAROYAL NEWS</p>
+          <h2><span>Articles & Tips</span> Agencies</h2>
+        </section>
+        <div>
+          <article>
+            <img src="./img/house7.webp" alt="">
+            <p>Category</p>
+            <h2>BUYING A HOME</h2>
+            <div>
+              <img src="./img/Time-Icon.webp" alt="">
+              <h4>DECEMBER 28, 2018</h4>
+            </div>
+          </article>
+          <article>
+            <img src="./img/house8.webp" alt="">
+            <p>Category</p>
+            <h2>PROS AND CONS ON A COUNTRYSIDE HOUSE</h2>
+            <div>
+              <img src="./img/Time-Icon.webp" alt="">
+              <h4>DECEMBER 28, 2018</h4>
+            </div>
+          </article>
+          <article>
+            <img src="./img/house9.webp" alt="">
+            <p>Category</p>
+            <h2>BUYING A HOME</h2>
+            <div>
+              <img src="./img/Time-Icon.webp" alt="">
+              <h4>DECEMBER 28, 2018</h4>
+            </div>
+          </article>
+        </div>
+        <button class="button">MORE ARTICLES & TIPS</button>
+      </section>
+      <section class="ourValues">
+        <section class="text_main">
+          <p style="font-weight: 500; font-size: 15       px;">CASAROYAL REAL ESTATE AGENCY</p>
+          <h2><span>Our</span> Values</h2>
+        </section>
+        <div>
+          <article>
+            <h2>Ensuring clear
+              communication
+            </h2>
+            <p>We keep you in the loop every step of the 
+              way. You can rely on a transparent, 
+              comprehensible flow of information.
+            </p>  
+          </article>
+          <article>
+            <h2>Making the most of 
+              technology
+            </h2>
+            <p>Time is precious. We guarantee a high 
+              degree of efficiency and a premium level 
+              of service by using the right tools.
+            </p>  
+          </article>
+          <article>
+            <h2>Providing excellent 
+              customer service
+            </h2>
+            <p>We are passionate about what we do and 
+              we take pride in achieving the 
+              personalised results that you have in mind.
+            </p>  
+          </article>
+        </div>
+        <button class="button">READ MORE</button>
+      </section>
+      <section class="clientReviews">
+       <p>CLIENTS REVIEWS</p>         
+      <h1><span>What</span> Our Clients Say</h1>
+      <h4>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eleifend nunc
+        sem, sit amet luctus tellus tempus tempor. Interdum et malesuada fames ac ante 
+        ipsum primis in faucibus.
+      </h4>
+      <div>
+        <img src="./img/agent-image-2.webp" alt="">
+        <div>
+          <h2>ALAN POE</h2>
+          <h3>SAN FRANCISCO</h3>
+        </div>
+      </div>
+      </section>
+      <footer>
+        <section class="footer-logo">
+          <img src="./img/Logo.webp" alt="">
+          <h1>casa<span>Royal</span></h1>
+        </section>
+        <section class="footer-information">
+          <article>
+            <h2>INFORMATION</h2>
+            <ul>
+              <li>Our Contacts</li>
+              <li>Privacy Policy</li>
+              <li>terms and Conditions</li>
+              <li>FAQs</li>
+            </ul>
+          </article>
+          <article>
+            <h2>PROPERTIES</h2>
+            <ul>
+              <li>Commercial</li>
+              <li>House</li>
+              <li>Office</li>
+              <li>Residential</li>
+              <li>Residential Tower</li>
+            </ul>
+          </article>
+          <article>
+            <h2>LOCATIONS</h2>
+            <ul>
+              <li>Beverly Hills</li>
+              <li>Los Angeles</li>
+              <li>Mission Viejo</li>
+              <li>Newport Beach</li>
+              <li>Pasadena</li>
+            </ul>
+          </article> 
+          <article>
+            <h2>USEFULL LINKS</h2>
+            <ul>
+              <li>Blog</li>
+              <li>Our Contacts</li>
+              <li>Submit Listing</li>
+              <li>Support</li>
+            </ul>
+          </article>
+          <article>
+            <h2>ABOUT CASAROYAL</h2>
+            <ul>
+              <li>casaRoyal - Premium Real Estate wordPress Theme By FantasyThemes</li>
+              <li>111 Wall Stree. USA, New York +1(234) 567 8900</li>
+            </ul>
+          </article>  
+        </section>
+        <section class="footer-lastSection">
+          <p>Proudly powered by <span>WordPress</span> and <span>casaRoyal</span> by <span>FantasyTheme</span></p>
+          <ul>
+            <li>Privacy Policy</li>
+            <li>Terms and Conditions</li>
+            <li>Contact Us</li>
+          </ul>
+        </section>
+        <p>Made for <span>Juan Diego Rojas</span> </p>
+      </footer>
+<script src="./main.js" type="text/javascript"></script>
+</body>
+</html>
